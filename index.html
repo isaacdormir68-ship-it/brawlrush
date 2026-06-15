@@ -8,13 +8,13 @@
 <body>
     <div class="container">
         <h1>BrawlRush</h1>
-        <input type="text" id="tagInput" placeholder="Entre ton tag (ex: #XXXXXX)">
+        <input type="text" id="tagInput" placeholder="Ex: PQR123">
         <button id="searchBtn">Rechercher</button>
         
-        <div id="result">
+        <div id="result" class="stats-card hidden">
             <h2 id="name"></h2>
-            <p id="trophies"></p>
-            <p id="club"></p>
+            <p>Trophées : <span id="trophies"></span></p>
+            <p>Club : <span id="club"></span></p>
         </div>
     </div>
     <script src="script.js"></script>
