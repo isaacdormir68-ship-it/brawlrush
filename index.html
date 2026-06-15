@@ -8,13 +8,18 @@
 <body>
     <div class="container">
         <h1>BrawlRush</h1>
-        <input type="text" id="tagInput" placeholder="Ex: PQR123">
+        <input type="text" id="tagInput" placeholder="Ex: PL8V...">
         <button id="searchBtn">Rechercher</button>
         
         <div id="result" class="stats-card hidden">
             <h2 id="name"></h2>
-            <p>Trophées : <span id="trophies"></span></p>
-            <p>Club : <span id="club"></span></p>
+            <div class="stats-grid">
+                <p>Trophées : <span id="trophies"></span></p>
+                <p>Record : <span id="highestTrophies"></span></p>
+                <p>Victoires 3c3 : <span id="victories3v3"></span></p>
+                <p>Victoires Solo : <span id="victoriesSolo"></span></p>
+                <p>Club : <span id="club"></span></p>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
